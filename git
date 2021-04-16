@@ -3,3 +3,12 @@ Usual Git Workflow
 git add .
 git commit -m "message"
 git push
+
+
+GULP
+
+- installed Node in order to use NPM (how we bring outside code into our app)
+- npm i gulp browser-sync gulp-cli
+- added gitignore so that node_moduels wouldn't be pushed up to github
+- copy and pasted gulpfile.js and added to project
+- ran gulp serve to start the live server
